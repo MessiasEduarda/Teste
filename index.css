@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box; 
     
+    
 }
 .header{
   background: fixed;
@@ -20,8 +21,9 @@
 body{
    
     width: 100%;
-    height: 1000%;
-    background:black;
+    height: 100%;
+    background: linear-gradient( #343741, #181818);
+
 
 }
 /* IMAGEM DE FUNDO */
@@ -29,8 +31,48 @@ body{
     width: 99vw;
     height: 65vh;
     background: url(img/unnamed.jpg);
- 
     
+}
+.card-text{
+  text-align: center;
+  border-radius: 0%;
+  border: 0cap;
+  margin: 0%;
+  
+}
+.border-warning{
+  align-items: center;
+   justify-content: space-around;
+   width: 30%;
+   height: 30%;
+   align-items: center;
+   background-color: rgb(31, 31, 36);
+   text-align: justify;
+  
+}
+.card{
+  width: auto;
+  height: auto;
+  float: left;
+  align-items: center;
+  margin: 66px;
+  border: 8px;
+  border-radius: 3px;
+ 
+  
+  
+}  
+.form{
+  width: 100%;
+  height: 100%;
+  background-color: aqua;
+  
+}
+
+
+.card-body{
+ text-align:center ;
+ color: rgb(255, 255, 255);
 }
 .navbar-expand-lg {
     margin-left: auto;
@@ -55,9 +97,20 @@ head {
     background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
 }
 
+
 #form.input{
     text-align: left;
     column-gap: 2004px;
+}
+.form-control{
+  align-items: center;
+  margin-top: 20%;
+  margin: 20px;
+}
+.form-floating{
+  align-items: center;
+  margin-top: 20%;
+  margin: 20px;
 }
 .bg-navbar{
 background-color:black
@@ -163,13 +216,21 @@ background-color:black
     max-width: 140%;
     background-color: rgb(31, 31, 36);
 }
-.border-warning{
+.border-card-body{
     background-color: yellow;
 }
-h5 {
+h4{
+  text-align: center;
+    align-items: center;
+   font-family: Arial, Helvetica, sans-serif;
+}
+h6 {
     text-align: center;
     align-items: center;
    font-family: Arial, Helvetica, sans-serif;
+   text-decoration: overline;
+   text-decoration-color:rgb(255, 208, 0)
+   
   }
   .mb-3{
     align-items: center;
@@ -182,11 +243,11 @@ h5 {
   }
   h3{
     text-align: center;
-    text-decoration: solid;
+    text-decoration: underline;
     font-family: Arial, Helvetica, sans-serif;
-text-decoration-color: rgb(255, 209, 6);
-justify-content: center;
-align-items: center;
+font-size: 100px;
+font-family: Arial, Helvetica, sans-serif;
+text-align: justify;
   }
 
 .roboto-slab-uniquifier {
